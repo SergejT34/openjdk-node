@@ -1,2 +1,2 @@
 # openjdk-node
-Latest Openjdk with latest node
+Latest Openjdk with latest Node Docker Image
