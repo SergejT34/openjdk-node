@@ -6,5 +6,5 @@ RUN curl -s 'https://nodejs.org/dist/'${version}'/'$( curl -s 'https://nodejs.or
 
 ## CI User
 RUN useradd -ms /bin/bash ci && adduser ci sudo
-USER ci
+USER ci:0
 WORKDIR /home/ci
